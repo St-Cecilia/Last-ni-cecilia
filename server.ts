@@ -1122,7 +1122,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`[INSTITUTIONAL PORTAL] Server running securely at http://0.0.0.0:${PORT}`);
+    console.log(`[INSTITUTIONAL PORTAL] Server running securely at http://localhost:${PORT}`);
   });
 }
 
